@@ -1,0 +1,32 @@
+#grade1{
+    height: auto;
+    background-color:red ;
+    background-image: radial-gradient(red 10%, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+    margin: auto;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#ANIMATION{
+    width: 100px;
+    height: 100px;
+    background-color: RED;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+@keyframes example{
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
